@@ -9,6 +9,10 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
 </head>
 <body>
+    <h1>Digite sua tarefa </h1>
+            <input type="text" id = "valor">
+            <input type="submit" onclick="capturar()" value="SALVAR">
+    <p id = "valorDigitado"> </p>
    <fieldset>
       <form id="form-adiciona" onsubmit="tarefaController.adiciona(event)">
          <div class="terco">
